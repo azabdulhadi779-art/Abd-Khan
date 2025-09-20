@@ -1,0 +1,429 @@
+.navbar {
+    width: 100%;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.home{
+    font-family: 'Times New Roman', Times, serif;
+}
+.homeimg {
+    height: 100%;
+    width: 100%;
+}
+
+.cardcon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img {
+    width: 50vw;
+    height: 50vh;
+}
+
+.img1 {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.card1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 60vw;
+    border: 2px solid white;
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card1:hover {
+    transform: translateY(0.3);
+    background-color: white;
+    color: black;
+    filter: drop-shadow(5px 5px 15px rgb(251, 255, 0));
+}
+
+.img2 {
+    max-width: 100%;
+  height: auto;
+}
+
+.card2 {
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60vw;
+    border: 2px solid white;
+    border-radius: 2rem;
+    transition: all ease-in-out 0.3s;
+}
+
+.card2:hover {
+    background-color: white;
+    color: black;
+    filter: drop-shadow(5px 5px 15px rgb(25, 0, 255))
+}
+
+.img3 {
+    max-width: 100%;
+  height: auto;
+}
+
+.card3 {
+    width: 60vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid white;
+    border-radius: 2rem;
+    transition: all ease-in-out 0.3s;
+}
+
+.card3:hover {
+    transform: translateY(0.3);
+    background-color: white;
+    color: black;
+    filter: drop-shadow(5px 5px 15px rgb(255, 0, 0))
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: all ease-in-out 0.3s;
+}
+
+.btn :hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    transform: translateY(0.3);
+    filter: drop-shadow(5px 5px 15px rgb(0, 0, 0));
+}
+
+.hh2 {
+    color: black;
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255));
+    text-align: center;
+}
+
+.hh2:hover {
+    color: white;
+    filter: drop-shadow(5px 5px 15px rgb(0, 204, 211));
+}
+
+.acc {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: steelblue;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+    overflow: auto;
+}
+
+.acc:hover {
+    border-radius: 5rem;
+    color: black;
+    background-color: steelblue;
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255));
+}
+
+.sm {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: rgb(223, 248, 0);
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+}
+
+.sm:hover {
+    border-radius: 5rem;
+    color: black;
+    background-color: rgb(255, 251, 0);
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255));
+}
+.sc {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+}
+
+.sc:hover {
+    border-radius: 5rem;
+    color: black;
+    background-color: rgb(255, 0, 0);
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255));
+}
+.ps {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: rgb(255, 0, 200);
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+}
+
+.ps:hover {
+    border-radius: 5rem;
+    color: black;
+    background-color: rgb(255, 0, 200);
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255));
+}
+.bga {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: rgb(0, 255, 242);
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+}
+
+.bga:hover {
+    border-radius: 5rem;
+    color: black;
+    background-color: rgb(0, 247, 255);
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255));
+}
+.vp {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+}
+
+.vp:hover {
+    border-radius: 5rem;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(5px 5px 15px rgb(0, 0, 0));
+}
+.cae{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: rgb(0, 255, 21);
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+}
+
+.cae:hover {
+    border-radius: 5rem;
+    color: black;
+    background-color: rgb(51, 255, 0);
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255));
+}
+.photo{
+    width: 10%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+.pc1{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(241, 237, 0))
+}
+.pc2{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255))
+}
+.pc3{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 0, 0))
+}
+.pc33{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 0, 242))
+}
+.pc4{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 174, 0))
+}
+.pc5{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(0, 183, 255))
+}
+.pc6{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 251, 0))
+}
+.pc7{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 0, 234))
+}
+.pc8{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(0, 17, 255))
+}
+.pc9{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 166, 0))
+}
+.pc10{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(106, 213, 255))
+}
+.pc11{
+    width: 30%;
+    height:auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(251, 255, 0))
+}
+.pc12{
+    width:30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(156, 156, 156))
+}
+.pc13{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255))
+}
+.pc14{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255))
+}
+.pc15{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 187, 0))
+}
+.pc16{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255))
+}
+.pc17{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 0, 0))
+}
+.pc18{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(225, 0, 255))
+}
+.pc19{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(5px 5px 15px rgb(255, 255, 255))
+}
+.ctf{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+    margin: 0 auto;
+    filter: drop-shadow(5px 5px 15px rgb(30, 255, 0));
+}
+.contimg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5rem;
+}
+
+.form-overlay {
+  max-width: 50%;
+  transition: all ease-in-out 0.3s;
+}
+.form-overlay:hover{
+    color: black;
+    filter: drop-shadow(5px 5px 15px rgb(255, 187, 0));
+}
+.fh1{
+    color: rgb(0, 0, 0);
+     filter: drop-shadow(5px 5px 15px rgb(0, 255, 55));
+     text-shadow: 2px 2px 0px white;
+}
+
